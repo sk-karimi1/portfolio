@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 This is a portfolio of projects I have done in the past
 
 
