@@ -1,0 +1,402 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~general tags~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #659DBD, rgba(255,255,255,.99));
+  font-family: "Arial", sans-serif;
+  line-height: 1.4;  /* 1.4 times current font-size */
+  min-width: 320px;
+  text-align: justify;
+}
+
+.homePage{
+  font-size: 1.2em;
+
+
+
+}
+
+
+
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  border-radius: 4px;
+  padding: 12px;
+  text-decoration: underline;
+  font-family: san-serif;
+  color: black;
+}
+
+h2 {
+  font-size: 1em;
+  font-family: "Didot", sans-serif;
+  text-align: left;
+  text-decoration: underline;
+}
+
+h3{
+  text-align: center;
+
+
+}
+
+p {
+   margin-bottom: 0.5em;
+}
+
+/*HEADER*/
+
+header {
+  display: inherit;
+  margin: 0;
+  padding: 0 5%;
+  font-family: "Times New Roman", serif;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~navigation~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+nav {
+  margin: 0;
+  padding: 8px 10%;
+  background: linear-gradient(to right, #659DBD, rgba(255,255,255,.99));
+  color: grey;
+  font-size: 1.3em;
+  font-family: sans-serif;
+  display: inherit;
+  border-radius: 10px
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  text-align: center;
+}
+
+button{
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.3em;
+  padding: 15px 25px;
+  text-decoration: none;
+
+}
+
+button:hover{
+
+  background-color: royalblue;
+  transform: scale(1.1);
+  transition: transform .2s;
+
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 7%;
+}
+
+nav a {
+  outline: none;
+  text-decoration: none;
+}
+
+nav a:link {
+  color: black;
+}
+
+nav a:visited {
+  color: black;
+}
+
+nav a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~main content~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+main {
+  padding: 8px 4%;
+}
+
+img{
+    transition: transform .2s;
+    margin: auto;
+    border-radius: 1px;
+}
+img:hover{
+    transform:scale(1.17);
+}
+
+dl img{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.COM1001{
+  padding: inherit;
+  text-align: left;
+  border-radius: 4px;
+
+}
+
+dt{
+  text-decoration: underline;
+
+
+}
+
+/* Contact page */
+
+.contactFormBox {
+
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 8px;
+  width: inherit;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  display: inherit;
+  text-align: center;
+  margin-top: 28px;
+
+}
+
+.contactFormBox h3{
+
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+.info h2{
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+.info h4{
+  font-size: 20px;
+  font-weight: 275;
+  text-decoration: underline;
+
+}
+
+.info p{
+  font-family: 'Poppins', san-serif;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-size: 24px;
+  font-weight: 225;
+
+}
+
+.info span{
+
+display: flex;
+justify-content: left;
+align-items: left;
+font-size: 30px;
+
+}
+
+.crest{
+
+  padding: 20px,10px,10px,10px;
+
+}
+
+
+.ContactForm{
+  text-align: center;
+  width: 100%;
+  padding: 43px;
+  display: inherit;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.ContactForm input,
+.ContactForm textarea {
+  vertical-align: inherit;
+  margin: 10px 10px 5px 8px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 75%;
+}
+
+
+.sendButton input {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  width: 250px;
+}
+
+.sendButton input:hover {
+  background-color: royalblue;
+  transform: scale(1.1);
+  transition: transform .2s;
+}
+
+/*MySkills*/
+
+
+.howItHasHelpedMe .MySkillsProfile {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+
+.howItHasHelpedMe .MySkillsProfile:hover{
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.SGA dt{
+
+  text-align: center;
+
+
+
+}
+
+/*accessibility*/
+
+.accessibilityLogo{
+  display: block;
+  align-items: right;
+  text-align: right;
+  float: right;
+  margin: 10px 0 10px 3%;
+  border: 1px solid gray;
+  padding-left: auto;
+
+
+}
+
+main .highlight {
+  font-weight: bolder;
+}
+
+main article {
+  margin: 20px 0;
+  border-top: 1px solid gray;
+}
+
+main>img {   /* only apply to an img that is a direct child */
+  float: right;
+  margin: 10px 0 10px 3%;
+}
+
+main figure {
+  float: right;
+  margin: 10px 0 10px 3%;
+  border: 1px solid gray;
+}
+
+
+
+main figcaption {
+  text-align: center;
+}
+
+
+
+/*footer*/
+
+footer {
+  clear: both;  /* move past any floated elements */
+  font-size: 0.75em;
+  align-items: center;
+  border-top: 2px solid lightgray;
+  padding: 3px 5%;
+}
+footer p{
+
+  text-align: center;
+}
+
+.footerbutton{
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.1em;
+  padding: 15px 25px;
+  text-decoration: none;
+
+
+}
+
+.footerbutton:hover{
+
+  background-color: royalblue;
+  transform: scale(1.1);
+  transition: transform .2s;
+
+}
+
+.socials li{
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    width: 20px;
+    padding: 25px;
+    text-decoration: none;
+
+}
+
+
+footer .italic {
+  font-style: italic;
+}
+
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+  }
+  nav{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(180deg, #FFDEE9 0%, #B5FFFC 100%);
+
+  }
+
+}

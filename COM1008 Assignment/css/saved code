@@ -1,0 +1,35 @@
+button{
+
+  background-color: #659DBD;
+  padding: 5px, 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.3em;
+
+}
+
+button:hover{
+
+  background-color: #659DBD;
+  transform: scale(1.1);
+  transition: transform .2s;
+
+}
+
+<figure>
+  <img src="./images/boy.png" alt="A picture of me" height="100" width="60">
+  <figcaption>
+    A picture of me,<br>
+    hopefully in 2025 :)
+  </figcaption>
+</figure>
+
+
+<button class="sendEmail" type="send">
+  <a href="sent.html">Send Email
+    <span class="material-symbols-outlined">
+      send
+    </span>
+  </a>
+</button>
