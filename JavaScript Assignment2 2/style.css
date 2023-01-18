@@ -1,0 +1,86 @@
+body {
+    line-height: 1.4;
+    margin: 0;
+    min-width: 320px;
+    padding: 0;
+    background: linear-gradient(to right, #aa076b, #61045f);
+    text-align: justify;
+    font-family: "Arial", sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    border-radius: 4px;
+    padding: 12px;
+    color: white;
+    text-decoration: underline;
+    font-family: san-serif;
+  }
+  p{
+    font-family: 'Poppins', san-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 225;
+  }
+  h2{
+    font-size: 1em;
+    font-family: "Didot", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+  }
+  header{
+    padding: 5%;
+  }
+
+  canvas{
+    border: 1px solid white;
+    text-align: center;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+  }
+  input{
+    border: 1px solid #ddd;
+    cursor: pointer;
+    color: white;
+    background-color: #000000;
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200;
+
+  }
+  input:hover {
+    background-color: rgb(53, 53, 242);
+    transition: transform .2s;
+    transform: scale(1.1);
+
+  }
+  input:focus{
+    background-color: red;
+
+  }
+
+  #rightEye-button{
+    cursor: pointer;
+    box-shadow: 0 0 0 2px rgb(51, 51, 51);
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2em;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    #faceDrawing{
+      width: 80%;
+
+    }
+  }

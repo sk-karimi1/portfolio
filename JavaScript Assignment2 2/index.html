@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Face Drawing</title>
+</head>
+<body onclick="getCoordinates(event)">
+    <main>
+            <h1>
+                My Drawing
+            </h1>
+            <div id="container">
+                <div id="face">
+                    <canvas id="faceDrawing" width="500" height="500">
+                        
+                    </canvas>
+                    <br>
+                    <input type="button" id="happyBTN" value="Happy face" onclick="drawHappyFace()" >
+                    <input type="button" id="neutralBTN" value="Neutral face" onclick="drawNeutralFace()">
+                    <input type="button" id="sadBTN" value="Sad face" onclick="drawSadFace()">
+                </div>
+                <script type="text/javascript" src="script.js"></script>
+                <p id="text">
+                    Click a button for a face to appear!
+                    <p>
+                      This assignment tested out my HTML, CSS and Javascript skills, by creating an interactive face. 
+                      Click on the eye for the eye to close, and click on the chin to grow a beard.  
+                    </p>
+                </p>
+            </div>
+    </main>
+</body>
+</html>
